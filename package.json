@@ -4,9 +4,9 @@
   "description": "A word game similar to Hink Pink",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server/server.js",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-    "dev:backend": "nodemon server.js",
+    "dev:backend": "nodemon server/server.js",
     "dev:frontend": "cd client && npm run dev",
     "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
